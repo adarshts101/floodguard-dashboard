@@ -1,0 +1,68 @@
+.dashboard {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #f9f9f9;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.status {
+  font-weight: bold;
+}
+
+/* Alert Colors */
+.alert-danger {
+  border-left: 6px solid red;
+  color: red;
+}
+
+.alert-warning {
+  border-left: 6px solid orange;
+  color: orange;
+}
+
+.alert-safe {
+  border-left: 6px solid green;
+  color: green;
+}
+
+.alert-neutral {
+  border-left: 6px solid gray;
+  color: gray;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #444;
+}
