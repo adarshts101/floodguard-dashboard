@@ -4,7 +4,7 @@ import { getDatabase } from "firebase/database";
 
 // Your Firebase Web App Config
 const firebaseConfig = {
-  apiKey: "AIzaSyDQ1eEhfdPgL-9ODpUBALGvmm0gZzgJJF0",
+  apiKey: "...API KEY...",
   authDomain: "floodguardx1-6ed9f.firebaseapp.com",
   databaseURL: "https://floodguardx1-6ed9f-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "floodguardx1-6ed9f",
